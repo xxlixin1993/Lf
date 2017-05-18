@@ -1,0 +1,1380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fba70886-70c1-4ba2-b34e-174e0276f6a0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/empty-translation.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/empty.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/empty.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/empty.xlf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/encoding.xlf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/plurals.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resourcebundle/dat/en.res" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resourcebundle/dat/fr.res" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resourcebundle/dat/resources.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resourcebundle/res/en.res" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitgnore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Lf.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/Index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/cron/websocket.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/exception/HttpException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/Index/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/Init.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/router.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/WebSocket.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/tests/Doctrine/Tests/Common/Inflector/InflectorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/tests/Doctrine/Tests/DoctrineTestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/tests/Doctrine/Tests/TestInit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/UPGRADING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Client.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/ClientInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/CookieJarInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/SessionCookieJar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/SetCookie.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/BadResponseException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/ClientException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/ConnectException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/GuzzleException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/SeekException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/ServerException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/TooManyRedirectsException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/TransferException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/CurlFactoryInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/CurlMultiHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/EasyHandle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/MockHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/StreamHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/HandlerStack.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/MessageFormatter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Middleware.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Pool.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/RedirectMiddleware.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/RequestOptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/RetryMiddleware.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/TransferStats.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/UriTemplate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/functions_include.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/AggregateException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/CancellationException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/Coroutine.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/EachPromise.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/FulfilledPromise.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/Promise.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/PromiseInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/PromisorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/RejectedPromise.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/RejectionException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/TaskQueue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/TaskQueueInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/functions_include.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/AppendStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/BufferStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/CachingStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/DroppingStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/FnStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/InflateStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/LazyOpenStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/LimitStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/MessageTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/MultipartStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/NoSeekStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/PumpStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Response.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/ServerRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Stream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/StreamDecoratorTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/StreamWrapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/UploadedFile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Uri.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/UriNormalizer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/UriResolver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/functions_include.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/container/BoundMethod.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/container/Container.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/container/ContextualBindingBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/container/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/Access/Authorizable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/Access/Gate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/Authenticatable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/CanResetPassword.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/Guard.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/PasswordBroker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/PasswordBrokerFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/StatefulGuard.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/SupportsBasicAuth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/UserProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Broadcasting/Broadcaster.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Broadcasting/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Broadcasting/ShouldBroadcast.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Broadcasting/ShouldBroadcastNow.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Bus/Dispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Bus/QueueingDispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Cache/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Cache/Repository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Cache/Store.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Config/Repository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Console/Application.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Console/Kernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Container/BindingResolutionException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Container/Container.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Container/ContextualBindingBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Cookie/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Cookie/QueueingFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Database/ModelIdentifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Debug/ExceptionHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Encryption/DecryptException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Encryption/EncryptException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Encryption/Encrypter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Events/Dispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Filesystem/Cloud.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Filesystem/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Filesystem/FileNotFoundException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Filesystem/Filesystem.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Foundation/Application.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Hashing/Hasher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Http/Kernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Logging/Log.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Mail/MailQueue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Mail/Mailable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Mail/Mailer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Notifications/Dispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Notifications/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Pagination/LengthAwarePaginator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Pagination/Paginator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Pipeline/Hub.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Pipeline/Pipeline.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/EntityNotFoundException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/EntityResolver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/Job.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/Monitor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/Queue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/QueueableCollection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/QueueableEntity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/ShouldQueue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Redis/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Routing/BindingRegistrar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Routing/Registrar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Routing/ResponseFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Routing/UrlGenerator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Routing/UrlRoutable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Session/Session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Support/Arrayable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Support/Htmlable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Support/Jsonable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Support/MessageBag.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Support/MessageProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Support/Renderable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Translation/Translator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Validation/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Validation/ValidatesWhenResolved.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Validation/Validator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/View/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/View/View.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Capsule/Manager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Concerns/ManagesTransactions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Connection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/ConnectionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/ConnectionResolver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/ConnectionResolverInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Connectors/ConnectionFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Connectors/Connector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Connectors/ConnectorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Connectors/MySqlConnector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Connectors/PostgresConnector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Connectors/SQLiteConnector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Connectors/SqlServerConnector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Console/Migrations/BaseCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Console/Migrations/InstallCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Console/Migrations/MigrateCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Console/Migrations/MigrateMakeCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Console/Migrations/RefreshCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Console/Migrations/ResetCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Console/Migrations/RollbackCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Console/Migrations/StatusCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Console/Seeds/SeedCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Console/Seeds/SeederMakeCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Console/Seeds/stubs/seeder.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/DatabaseManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/DatabaseServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/DetectsDeadlocks.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/DetectsLostConnections.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Builder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Collection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Concerns/GuardsAttributes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Concerns/HasAttributes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Concerns/HasEvents.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Concerns/HasGlobalScopes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Concerns/HasRelationships.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Concerns/HasTimestamps.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Concerns/HidesAttributes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Concerns/QueriesRelationships.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/FactoryBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/JsonEncodingException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/MassAssignmentException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/ModelNotFoundException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/QueueEntityResolver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/RelationNotFoundException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Relations/BelongsTo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Relations/BelongsToMany.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Relations/Concerns/InteractsWithPivotTable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Relations/HasMany.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Relations/HasManyThrough.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Relations/HasOne.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Relations/HasOneOrMany.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Relations/MorphMany.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Relations/MorphOne.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Relations/MorphOneOrMany.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Relations/MorphPivot.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Relations/MorphTo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Relations/MorphToMany.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Relations/Pivot.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Relations/Relation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Scope.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/SoftDeletes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Eloquent/SoftDeletingScope.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Events/ConnectionEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Events/QueryExecuted.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Events/StatementPrepared.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Events/TransactionBeginning.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Events/TransactionCommitted.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Events/TransactionRolledBack.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Grammar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/MigrationServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Migrations/DatabaseMigrationRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Migrations/Migration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Migrations/MigrationCreator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Migrations/MigrationRepositoryInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Migrations/Migrator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Migrations/stubs/blank.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Migrations/stubs/create.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Migrations/stubs/update.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/MySqlConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/PostgresConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Query/Builder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Query/Expression.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Query/Grammars/Grammar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Query/Grammars/MySqlGrammar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Query/Grammars/PostgresGrammar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Query/Grammars/SQLiteGrammar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Query/Grammars/SqlServerGrammar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Query/JoinClause.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Query/JsonExpression.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Query/Processors/MySqlProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Query/Processors/PostgresProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Query/Processors/Processor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Query/Processors/SQLiteProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Query/Processors/SqlServerProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/QueryException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/SQLiteConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Schema/Blueprint.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Schema/Builder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Schema/Grammars/ChangeColumn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Schema/Grammars/Grammar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Schema/Grammars/MySqlGrammar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Schema/Grammars/PostgresGrammar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Schema/Grammars/RenameColumn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Schema/Grammars/SQLiteGrammar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Schema/Grammars/SqlServerGrammar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Schema/MySqlBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Schema/PostgresBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/Seeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/SqlServerConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/database/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/events/CallQueuedHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/events/CallQueuedListener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/events/Dispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/events/EventServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/events/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/AggregateServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Arr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Collection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Composer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Debug/Dumper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Debug/HtmlDumper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/App.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Artisan.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Broadcast.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Bus.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Cache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Cookie.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Crypt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/DB.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Event.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Facade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Gate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Hash.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Input.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Log.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Mail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Notification.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Password.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Queue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Redirect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Redis.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Response.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Route.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Schema.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Storage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/URL.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Validator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/View.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Fluent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/HigherOrderCollectionProxy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/HtmlString.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Manager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/MessageBag.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/NamespacedItemResolver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Pluralizer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/ServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Str.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Testing/Fakes/BusFake.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Testing/Fakes/EventFake.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Testing/Fakes/MailFake.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Testing/Fakes/NotificationFake.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Testing/Fakes/PendingMailFake.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Testing/Fakes/QueueFake.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Traits/CapsuleManagerTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Traits/Macroable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/ViewErrorBag.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/support/helpers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/.php_cs.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Carbon.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/CarbonInterval.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/af.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/az.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/bg.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/bn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ca.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/cs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/da.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/de.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/el.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/en.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/eo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/es.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/et.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/eu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fa.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/gl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/he.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/hr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/hu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/hy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/id.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/it.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ja.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ka.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/km.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ko.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/lt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/lv.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/mk.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ms.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/nl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/no.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/pl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/pt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/pt_BR.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ro.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ru.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sk.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sq.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sr_Cyrl_ME.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sr_Latn_ME.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sr_ME.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sv.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/th.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/tr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/uk.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ur.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/uz.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/vi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/zh.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/zh_TW.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/build-phar.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/dist/random_compat.phar.pubkey" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/dist/random_compat.phar.pubkey.asc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/byte_safe_strings.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/cast_to_int.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/error_polyfill.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_com_dotnet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_dev_urandom.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_libsodium.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_libsodium_legacy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_mcrypt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_int.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/other/build_phar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/psalm-autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/psalm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/psr/http-message/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/psr/http-message/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/psr/http-message/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/psr/http-message/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/MessageInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/RequestInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/ResponseInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/ServerRequestInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/StreamInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/UploadedFileInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/UriInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Mbstring.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Resources/unidata/lowerCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Resources/unidata/upperCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Catalogue/AbstractOperation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Catalogue/MergeOperation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Catalogue/OperationInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Catalogue/TargetOperation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/DataCollector/TranslationDataCollector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/DataCollectorTranslator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/CsvFileDumper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/DumperInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/FileDumper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/IcuResFileDumper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/IniFileDumper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/JsonFileDumper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/MoFileDumper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/PhpFileDumper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/PoFileDumper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/QtFileDumper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/XliffFileDumper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/YamlFileDumper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Exception/ExceptionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Exception/InvalidArgumentException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Exception/InvalidResourceException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Exception/LogicException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Exception/NotFoundResourceException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Exception/RuntimeException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Extractor/AbstractFileExtractor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Extractor/ChainExtractor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Extractor/ExtractorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/IdentityTranslator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Interval.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/ArrayLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/CsvFileLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/FileLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/IcuDatFileLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/IcuResFileLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/IniFileLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/JsonFileLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/LoaderInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/MoFileLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/PhpFileLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/PoFileLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/QtFileLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/XliffFileLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/YamlFileLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/schema/dic/xliff-core/xliff-core-1.2-strict.xsd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/schema/dic/xliff-core/xliff-core-2.0.xsd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/schema/dic/xliff-core/xml.xsd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/LoggingTranslator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/MessageCatalogue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/MessageCatalogueInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/MessageSelector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/MetadataAwareInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/PluralizationRules.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Catalogue/AbstractOperationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Catalogue/MergeOperationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Catalogue/TargetOperationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/DataCollector/TranslationDataCollectorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/DataCollectorTranslatorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/CsvFileDumperTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/FileDumperTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/IcuResFileDumperTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/IniFileDumperTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/JsonFileDumperTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/MoFileDumperTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/PhpFileDumperTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/PoFileDumperTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/QtFileDumperTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/XliffFileDumperTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/YamlFileDumperTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/IdentityTranslatorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/IntervalTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/CsvFileLoaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/IcuDatFileLoaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/IcuResFileLoaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/IniFileLoaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/JsonFileLoaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/LocalizedTestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/MoFileLoaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/PhpFileLoaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/PoFileLoaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/QtFileLoaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/XliffFileLoaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/YamlFileLoaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/LoggingTranslatorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/MessageCatalogueTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/MessageSelectorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/PluralizationRulesTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/TranslatorCacheTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/TranslatorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Util/ArrayConverterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Writer/TranslationWriterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/empty-translation.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/empty.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/empty.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/empty.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/empty.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/escaped-id-plurals.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/escaped-id.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/fuzzy-translations.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/invalid-xml-resources.xlf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/malformed.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/messages.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/messages_linear.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/non-valid.xlf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/non-valid.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/plurals.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resname.xlf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resourcebundle/corrupted/resources.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resourcebundle/dat/en.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resourcebundle/dat/fr.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resourcebundle/dat/packagelist.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources-2.0-clean.xlf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources-2.0.xlf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources-clean.xlf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources-target-attributes.xlf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources-tool-info.xlf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.dump.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.xlf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/valid.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/with-attributes.xlf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/withdoctype.xlf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/withnote.xlf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Translator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/TranslatorBagInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/TranslatorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Util/ArrayConverter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Writer/TranslationWriter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/translation/phpunit.xml.dist" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Init.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap/Init.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1155">
+              <caret line="64" column="12" lean-forward="false" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+              <folding>
+                <element signature="e#7#72#0#PHP" expanded="true" />
+                <element signature="e#95#127#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebSocket.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/WebSocket.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1365">
+              <caret line="68" column="26" lean-forward="false" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+              <folding>
+                <element signature="e#6#49#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="websocket_debug.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/websocket_debug.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="websocket.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/cron/websocket.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controller/Index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="e#6#87#0#PHP" expanded="true" />
+                <element signature="e#116#135#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package_json" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$instance</find>
+      <find>config</find>
+      <find>base_dir</find>
+      <find>$pid</find>
+      <find>sockets</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>$_instance</replace>
+      <replace>_config</replace>
+      <replace>_base_dir</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/core/config.php" />
+        <option value="$PROJECT_DIR$/bootstarp/init.php" />
+        <option value="$PROJECT_DIR$/bootstarp/Init.php" />
+        <option value="$PROJECT_DIR$/core/Config.php" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/core/Mysql.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/exception/HttpException.php" />
+        <option value="$PROJECT_DIR$/config/router.php" />
+        <option value="$PROJECT_DIR$/app/model/User.php" />
+        <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/core/Request.php" />
+        <option value="$PROJECT_DIR$/core/websocket.php" />
+        <option value="$PROJECT_DIR$/app/view/index.php" />
+        <option value="$PROJECT_DIR$/core/Controller.php" />
+        <option value="$PROJECT_DIR$/app/view/Index/index.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/bootstrap/Init.php" />
+        <option value="$PROJECT_DIR$/app/cron/websocket.php" />
+        <option value="$PROJECT_DIR$/core/WebSocket.php" />
+        <option value="$PROJECT_DIR$/.gitgnore" />
+        <option value="$PROJECT_DIR$/app/controller/Index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Index" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cron" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="/tmp/yaf.auto.complete" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="FullScreen" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/view/Index" />
+      <recent name="$PROJECT_DIR$/app/controller" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fba70886-70c1-4ba2-b34e-174e0276f6a0" name="Default" comment="" />
+      <created>1490328400406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1490328400406</updated>
+      <workItem from="1490328401768" duration="400000" />
+      <workItem from="1490370624306" duration="19000" />
+      <workItem from="1490506078178" duration="11478000" />
+      <workItem from="1490662471665" duration="198000" />
+      <workItem from="1490876264387" duration="3318000" />
+      <workItem from="1490927243171" duration="8523000" />
+      <workItem from="1490975565571" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="23948000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13876967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12446352" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bootstrap/Init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#72#0#PHP" expanded="true" />
+            <element signature="e#95#127#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/WebSocket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="68" column="26" lean-forward="true" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+          <folding>
+            <element signature="e#6#49#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/websocket_debug.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/cron/websocket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/Init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2352">
+          <caret line="121" column="32" lean-forward="false" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
+          <folding>
+            <element signature="e#7#72#0#PHP" expanded="true" />
+            <element signature="e#95#127#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/exception/HttpException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding>
+            <element signature="e#7#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#87#0#PHP" expanded="true" />
+            <element signature="e#116#135#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="987">
+          <caret line="52" column="5" lean-forward="false" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#87#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/Init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#72#0#PHP" expanded="true" />
+            <element signature="e#95#127#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/exception/HttpException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding>
+            <element signature="e#7#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/Init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#72#0#PHP" expanded="true" />
+            <element signature="e#95#127#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Mysql.php" />
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/exception/HttpException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="2" />
+          <folding>
+            <element signature="e#6#73#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="32" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="1" />
+          <folding>
+            <element signature="e#6#87#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding>
+            <element signature="e#7#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Index/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding>
+            <element signature="e#7#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/Init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="64" column="12" lean-forward="false" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+          <folding>
+            <element signature="e#7#72#0#PHP" expanded="true" />
+            <element signature="e#95#127#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/cron/websocket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/websocket_debug.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitgnore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/WebSocket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="68" column="26" lean-forward="false" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+          <folding>
+            <element signature="e#6#49#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#87#0#PHP" expanded="true" />
+            <element signature="e#116#135#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

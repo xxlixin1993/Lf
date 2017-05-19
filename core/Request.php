@@ -23,7 +23,7 @@ class Request
 
     /**
      * 检查请求参数
-     * @param $request_method
+     * @param string $request_method GET POST PUT DELETE
      */
     public static function checkParam($request_method)
     {
@@ -63,6 +63,7 @@ class Request
                 }
             }
         }
+
     }
 
 

@@ -21,6 +21,7 @@ class Index extends Controller
 //        $res = User::where('a', 'cc')->get();
 //        print_r($res);
 //        exit;
+        echo 213;exit;
         $this->assign('asd','asd');
         $this->display('Index/index');
     }

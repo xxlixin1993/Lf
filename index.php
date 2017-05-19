@@ -1,6 +1,11 @@
 <?php
-require_once __DIR__ . '/bootstrap/Init.php';
+/**
+ * 入口文件
+ */
+
 require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/bootstrap/Init.php';
+
 //定义根目录
 define('BASEDIR', __DIR__);
 

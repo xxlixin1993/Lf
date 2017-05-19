@@ -16,11 +16,19 @@ use core;
 
 class Init
 {
-    //用来保存init实例
+    /**
+     * @var Init init实例
+     */
     protected static $_instance;
-    //
+
+    /**
+     * @var string 应用目录
+     */
     public $_base_dir;
-    //配置文件对象
+
+    /**
+     * @var core\Config 配置文件对象
+     */
     public $_config;
 
     /**
@@ -63,7 +71,7 @@ class Init
 
     /**
      * 初始化程序
-     * @param string $module
+     * @param string $module web需要分发
      */
     public function init($module = 'web')
     {

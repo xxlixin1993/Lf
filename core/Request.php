@@ -10,6 +10,18 @@ namespace core;
 class Request
 {
     /**
+     * GET请求参数
+     * @var array
+     */
+    public static $_GET  = [];
+
+    /**
+     * POST请求参数
+     * @var array
+     */
+    public static $_POST = [];
+
+    /**
      * PUT请求参数
      * @var array
      */
@@ -29,12 +41,12 @@ class Request
     {
         if (!empty($_GET)) {
             foreach ($_GET as $key => $value) {
-                $_GET[$key] = htmlspecialchars($value, ENT_QUOTES);
+                self::$_GET[$key] = htmlspecialchars($value, ENT_QUOTES);
             }
         }
         if (!empty($_POST)) {
             foreach ($_POST as $key => $value) {
-                $_POST[$key] = htmlspecialchars($value, ENT_QUOTES);
+                self::$_POST[$key] = htmlspecialchars($value, ENT_QUOTES);
             }
         }
         //put delete参数

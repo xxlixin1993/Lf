@@ -10,6 +10,8 @@ namespace app\controller;
 
 use app\model\User;
 use core\Controller;
+use core\Log;
+
 
 class Index extends Controller
 {
@@ -21,6 +23,11 @@ class Index extends Controller
 //        $res = User::where('a', 'cc')->get();
 //        print_r($res);
 //        exit;
+
+
+
+        $log = new Log('name','warning',Log::FILE);
+        $log->info('asd');
         echo 111;exit;
         $this->assign('asd','asd');
         $this->display('Index/index');

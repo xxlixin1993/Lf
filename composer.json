@@ -7,8 +7,7 @@
     "php": ">=7.0.0",
     "guzzlehttp/guzzle": "~6.2.3",
     "illuminate/database": "~5.4.13",
-    "illuminate/events":"~5.4",
-    "noahbuscher/macaw": "dev-master"
+    "illuminate/events":"~5.4"
   }
 
 }

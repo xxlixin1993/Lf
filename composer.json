@@ -9,6 +9,11 @@
     "illuminate/database": "~5.4.13",
     "illuminate/events":"~5.4",
     "monolog/monolog":"~1.22"
-  }
+  },
 
+  "scripts": {
+    "post-root-package-install": [
+      "php -r \"copy('.env.example', '.env');\""
+    ]
+  }
 }

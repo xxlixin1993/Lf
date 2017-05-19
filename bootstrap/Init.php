@@ -75,6 +75,7 @@ class Init
      */
     public function init($module = 'web')
     {
+        require_once BASEDIR . '/app/helpers.php';
         //检查系统环境是否是windows
         if (substr(PHP_OS, 0, 3) == "WIN")
             define("__IS_WIN__", 1);

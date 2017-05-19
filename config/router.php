@@ -8,12 +8,14 @@
 return [
     'GET' => [
         '/' => 'Index@index',
-        '/asd/sad' => 'Index@index',
     ],
     'POST' => [
         '/' => 'Index@index',
     ],
     'PUT' => [
-        '/asd/sad' => 'Index@index',
+        '/' => 'Index@index',
+    ],
+    'DETELE' => [
+        '/' => 'Index@index',
     ],
 ];

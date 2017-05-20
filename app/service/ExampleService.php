@@ -13,7 +13,7 @@ use core\BaseService;
 class ExampleService extends BaseService
 {
     /**
-     * @var ExampleService init实例
+     * @var ExampleService
      */
     protected static $_instance;
 

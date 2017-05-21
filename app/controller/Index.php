@@ -7,6 +7,7 @@
  */
 namespace app\controller;
 
+use core\CacheFactory;
 use core\Controller;
 use app\service\ExampleService;
 
@@ -15,6 +16,10 @@ class Index extends Controller
 {
     public function index()
     {
+//        $r = CacheFactory::$_handle['memcache']->set('asd','asd');
+//        var_dump($r);exit;
+
+
         $obj = ExampleService::getInstance();
         print_r($obj->example());exit;
         

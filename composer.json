@@ -8,6 +8,7 @@
     "guzzlehttp/guzzle": "~6.2.3",
     "illuminate/database": "~5.4.13",
     "illuminate/events":"~5.4",
-    "monolog/monolog":"~1.22"
+    "monolog/monolog":"~1.22",
+    "cebe/markdown":"~1.1.1"
   }
 }

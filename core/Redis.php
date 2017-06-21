@@ -67,13 +67,13 @@ class Redis extends Cache
     public function set($itemKey, $itemValue, $expireTime = 0)
     {
         //过期时间，0-2592000秒（30天），与memcache缓存服务等效设置，超过时间范围永久有效
-        $expire_time = intval($expireTime);
-        if ($expire_time < 0 || $expire_time > 2592000) {
-            $expire_time = 0;
+        $expireTime = intval($expireTime);
+        if ($expireTime < 0 || $expireTime > 2592000) {
+            $expireTime = 0;
         }
 
-        if ($expire_time > 0) {
-            $this->_cacheHandle->set($itemKey, $itemValue, $expire_time);
+        if ($expireTime > 0) {
+            $this->_cacheHandle->set($itemKey, $itemValue, $expireTime);
         } else {
             $this->_cacheHandle->set($itemKey, $itemValue);
         }

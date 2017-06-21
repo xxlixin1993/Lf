@@ -80,12 +80,12 @@ class Memcached extends Cache
     {
         //过期时间，0-2592000秒（30天），由于超过按照时间戳处理，这里处理为永久有效
         //参见 http://cn2.php.net/manual/zh/memcached.expiration.php
-        $expire_time = intval($expireTime);
-        if ($expire_time < 0 || $expire_time > 2592000) {
-            $expire_time = 0;
+        $expireTime = intval($expireTime);
+        if ($expireTime < 0 || $expireTime > 2592000) {
+            $expireTime = 0;
         }
 
-        $this->_cacheHandle->set($itemKey, $itemValue, $expire_time);
+        $this->_cacheHandle->set($itemKey, $itemValue, $expireTime);
 
         return true;
     }

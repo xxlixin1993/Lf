@@ -134,7 +134,10 @@ class Init
     private function connMysql()
     {
         $capsule = new Capsule;
-        $capsule->addConnection($this->_config['database']);
+        foreach ($this->_config['database'] as $key => $value) {
+            $capsule->addConnection($value , $key);
+        }
+
         $capsule->setEventDispatcher(new Dispatcher(new Container));
 
         $capsule->setAsGlobal();

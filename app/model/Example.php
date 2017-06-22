@@ -13,5 +13,6 @@ use core\BaseModel;
 
 class Example extends BaseModel
 {
+    protected $connection = 'test';
     protected $table = 'all_vin';
 }

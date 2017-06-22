@@ -38,6 +38,6 @@ class Index extends Controller
         $obj = ExampleService::getInstance();
         $page = $obj->pageEx($_GET['page']);
         $page->setPath('/pageEx');
-        echo $this->apiReturn('200', 'ok', $page);
+        $this->apiReturn('200', 'ok', $page);
     }
 }

@@ -59,6 +59,6 @@ class ExampleService extends BaseService
      */
     public function pageEx($page)
     {
-        return Example::paginate(15,['*'],'page',$page);
+        return Example::paginate(15, ['*'], 'page', $page);
     }
 }

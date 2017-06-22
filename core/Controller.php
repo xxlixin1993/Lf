@@ -45,4 +45,21 @@ class Controller
         extract($this->_data);
         include $path;
     }
+
+    /**
+     * 输出Json
+     * @param int $code 状态码
+     * @param string $message 信息
+     * @param array $data 数据
+     * @author lixin
+     */
+    public function apiReturn($code, $message = '', $data = array())
+    {
+        $returnData = [
+            'code' => $code,
+            'data' => $data,
+            'msg' => $message,
+        ];
+        exit(json_encode($returnData));
+    }
 }

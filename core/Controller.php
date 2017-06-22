@@ -12,8 +12,16 @@ use bootstrap\Init;
 
 class Controller
 {
-
+    /**
+     * 分配给模板的数据
+     * @var array
+     */
     protected $_data;
+
+    /**
+     * 模板路径
+     * @var string
+     */
     protected $_template_dir;
 
     /**

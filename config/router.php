@@ -16,7 +16,7 @@ return [
     'PUT' => [
         '/' => 'Index@index',
     ],
-    'DETELE' => [
+    'DELETE' => [
         '/' => 'Index@index',
     ],
 ];

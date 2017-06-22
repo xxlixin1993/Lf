@@ -9,6 +9,7 @@
 namespace bootstrap;
 
 use app\exception\HttpException;
+use Dotenv\Dotenv;
 use Illuminate\Database\Capsule\Manager as Capsule;
 use Illuminate\Events\Dispatcher;
 use Illuminate\Container\Container;
@@ -75,7 +76,11 @@ class Init
      */
     public function init($module = 'web')
     {
-        require_once BASEDIR . '/app/helpers.php';
+        include BASEDIR . '/app/helpers.php';
+
+        $dotEnv = new Dotenv(BASEDIR);
+        $dotEnv->load();
+
         //检查系统环境是否是windows
         if (substr(PHP_OS, 0, 3) == "WIN")
             define("__IS_WIN__", 1);
@@ -88,16 +93,18 @@ class Init
             $version = explode('.', PHP_VERSION);
             define('PHP_VERSION_ID', ($version[0] * 10000 + $version[1] * 100 + $version[2]));
         }
-        //用传参数DEBUG值来判断是否开启调试模式，打开错误提示
-        define("__DEBUG__", (isset($_REQUEST['DEBUG']) ? 1 : 0));
 
-        /*if (__DEBUG__ == 1) {
+        //用传参数DEBUG值来判断是否开启调试模式，打开错误提示
+        define("__DEBUG__", (env('DEBUG', false) ? 1 : 0));
+
+        if (__DEBUG__ == 1) {
             error_reporting(E_ALL & ~E_DEPRECATED & ~E_STRICT);
             ini_set('display_errors', true);
         } else {
             error_reporting(0);
             ini_set('display_errors', false);
-        }*/
+        }
+
         self::connMysql();
         self::connCache();
         if ($module == 'web') {
@@ -142,8 +149,8 @@ class Init
             (new $controller)->$action();
         }
 
+        //未找到该版本 版本不停向下找
         if (!$flag) {
-            //未找到该版本 版本不停向下找
             foreach ($routerVersion as $item) {
                 if (array_key_exists($uri, $this->_config['router'][$item][$request_method])) {
                     $params = explode('@', $this->_config['router'][$item][$request_method][$uri]);

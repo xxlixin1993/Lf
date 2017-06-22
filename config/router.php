@@ -9,7 +9,6 @@ return [
     'v120' => [
         'GET' => [
             '/' => 'Index@index',
-            '/pageEx' => 'Index@page'
         ],
         'POST' => [
             '/' => 'Index@index',
@@ -24,7 +23,6 @@ return [
     'v110' => [
         'GET' => [
             '/' => 'Index@index',
-            '/pageEx' => 'Index@page'
         ],
         'POST' => [
             '/' => 'Index@index',
@@ -34,6 +32,7 @@ return [
         ],
         'DELETE' => [
             '/' => 'Index@index',
+            '/pageEx' => 'Index@page'
         ]
     ],
 ];

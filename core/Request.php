@@ -42,11 +42,14 @@ class Request
         if (!empty($_GET)) {
             foreach ($_GET as $key => $value) {
                 self::$_GET[$key] = htmlspecialchars($value, ENT_QUOTES);
+                unset($_GET[$key]);
             }
         }
+
         if (!empty($_POST)) {
             foreach ($_POST as $key => $value) {
                 self::$_POST[$key] = htmlspecialchars($value, ENT_QUOTES);
+                unset($_POST[$key]);
             }
         }
         //put delete参数
@@ -75,7 +78,6 @@ class Request
                 }
             }
         }
-
     }
 
 

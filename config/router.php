@@ -1,38 +1,24 @@
 <?php
 /**
- * 路由配置文件 版本新的定义在前 旧的定义在后
+ * 路由配置文件
+ * 配置规则 module @ controller @ action
  * User: lixin
  * Date: 2017/3/26
  * Time: 下午8:10
  */
 return [
-    'v120' => [
-        'GET' => [
-            '/' => 'Index@index',
-        ],
-        'POST' => [
-            '/' => 'Index@index',
-        ],
-        'PUT' => [
-            '/' => 'Index@index',
-        ],
-        'DELETE' => [
-            '/' => 'Index@index',
-        ]
+    'GET' => [
+        '/' => 'car@Index@index',
+        '/page' => 'member@Index@page',
     ],
-    'v110' => [
-        'GET' => [
-            '/' => 'Index@index',
-        ],
-        'POST' => [
-            '/' => 'Index@index',
-        ],
-        'PUT' => [
-            '/' => 'Index@index',
-        ],
-        'DELETE' => [
-            '/' => 'Index@index',
-            '/pageEx' => 'Index@page'
-        ]
+    'POST' => [
+        '/' => 'member@Index@index',
     ],
+    'PUT' => [
+        '/index' => 'member@Index@index',
+    ],
+    'DELETE' => [
+        '/index' => 'car@Index@index',
+    ]
+
 ];

@@ -5,7 +5,7 @@
  * Date: 2017/3/26
  * Time: 下午11:08
  */
-namespace app\model;
+namespace app\module\car\model;
 
 
 

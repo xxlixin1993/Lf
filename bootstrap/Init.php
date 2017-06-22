@@ -124,49 +124,17 @@ class Init
         } else {
             $query = $_SERVER['REQUEST_URI'];
         }
-        $query = substr(htmlspecialchars($query, ENT_QUOTES), 1);
-
         core\Request::checkParam($request_method);
+        $query = htmlspecialchars($query, ENT_QUOTES);
 
-        $index = strpos($query, '/');
-        $version = intval(substr($query, 0, $index));
-        $uri = substr($query, $index);
-
-        $routerVersion = array_keys($this->_config['router']);
-
-        //寻找到路由置为true
-        $flag = false;
-
-        //直接找到该版本
-        if (array_key_exists('v' . $version, $this->_config['router'])
-            &&
-            array_key_exists($uri, $this->_config['router']['v' . $version][$request_method])
-        ) {
-            $params = explode('@', $this->_config['router']['v' . $version][$request_method][$uri]);
-            $controller = "\\app\\controller\\v" . $version . "\\" . $params[0];
-            $action = $params[1];
-            $flag = true;
+        if (array_key_exists($query, $this->_config['router'][$request_method])) {
+            $params = explode('@', $this->_config['router'][$request_method][$query]);
+            $controller = "\\app\\module\\" . $params[0] ."\\controller\\".$params[1];
+            $action = $params[2];
             (new $controller)->$action();
-        }
-
-        //未找到该版本 版本不停向下找
-        if (!$flag) {
-            foreach ($routerVersion as $item) {
-                if (array_key_exists($uri, $this->_config['router'][$item][$request_method])) {
-                    $params = explode('@', $this->_config['router'][$item][$request_method][$uri]);
-                    $controller = "\\app\\controller\\" . $item . "\\" . $params[0];
-                    $action = $params[1];
-                    (new $controller)->$action();
-                    $flag = true;
-                    break;
-                }
-            }
-        }
-
-        if (!$flag) {
+        } else {
             throw new HttpException('Undefined router', 404);
         }
-
     }
 
     /**

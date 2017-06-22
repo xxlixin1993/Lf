@@ -1,0 +1,18 @@
+<?php
+/**
+ * Example
+ * User: lixin
+ * Date: 2017/3/26
+ * Time: 下午11:08
+ */
+namespace app\module\member\model;
+
+
+
+use core\BaseModel;
+
+class Example extends BaseModel
+{
+    protected $connection = 'test';
+    protected $table = 'all_vin';
+}

@@ -5,11 +5,10 @@
  * Date: 2017/3/26
  * Time: 下午8:05
  */
-namespace app\controller\v110;
+namespace app\module\car\controller;
 
+use app\module\car\service\ExampleService;
 use core\Controller;
-use app\service\ExampleService;
-use core\Request;
 
 
 class Index extends Controller
@@ -30,14 +29,14 @@ class Index extends Controller
 
 //        $this->assign('foo', 'bar');
 //        $this->display('Index/index');
-        echo 'v110';
+        echo 'car';
     }
 
 
     public function page()
     {
         $obj = ExampleService::getInstance();
-        $page = $obj->pageEx(Request::$_GET['page']);
+        $page = $obj->pageEx();
         $page->setPath('/pageEx');
         $this->apiReturn('200', 'ok', $page);
     }

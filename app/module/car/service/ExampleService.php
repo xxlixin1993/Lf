@@ -5,9 +5,10 @@
  * User: lixin
  * Date: 17-5-19
  */
-namespace app\service;
+namespace app\module\car\service;
 
-use app\model\Example;
+
+use app\module\car\model\Example;
 use core\BaseService;
 
 class ExampleService extends BaseService
@@ -57,7 +58,7 @@ class ExampleService extends BaseService
      * @return mixed
      * @author lixin
      */
-    public function pageEx($page)
+    public function pageEx($page = 1)
     {
         return Example::paginate(15, ['*'], 'page', $page);
     }

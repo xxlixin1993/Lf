@@ -41,6 +41,7 @@ class ExampleService extends BaseService
 
     /**
      * 测试函数
+     * @return mixed
      * @author lixin
      */
     public function example()
@@ -48,5 +49,16 @@ class ExampleService extends BaseService
         $exampleModel = new Example();
         $res = $exampleModel->where('id', 1)->get();
         return $res;
+    }
+
+    /**
+     * 分页测试函数
+     * @param int $page 当前页
+     * @return mixed
+     * @author lixin
+     */
+    public function pageEx($page)
+    {
+        return Example::paginate(15,['*'],'page',$page);
     }
 }

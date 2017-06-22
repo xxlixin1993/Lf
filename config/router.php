@@ -8,6 +8,7 @@
 return [
     'GET' => [
         '/' => 'Index@index',
+        '/pageEx' => 'Index@page'
     ],
     'POST' => [
         '/' => 'Index@index',

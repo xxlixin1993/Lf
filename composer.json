@@ -9,6 +9,7 @@
     "illuminate/database": "~5.4.13",
     "illuminate/events":"~5.4",
     "monolog/monolog":"~1.22",
-    "cebe/markdown":"~1.1.1"
+    "cebe/markdown":"~1.1.1",
+    "illuminate/pagination":"~5.4.27"
   }
 }

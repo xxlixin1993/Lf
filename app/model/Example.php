@@ -13,5 +13,5 @@ use core\BaseModel;
 
 class Example extends BaseModel
 {
-    protected $table = 'api';
+    protected $table = 'all_vin';
 }

@@ -31,4 +31,13 @@ class Index extends Controller
         $this->assign('foo','bar');
         $this->display('Index/index');
     }
+    
+    
+    public function page()
+    {
+        $obj = ExampleService::getInstance();
+        $page = $obj->pageEx($_GET['page']);
+        $page->setPath('/pageEx');
+        echo $page->toJson();
+    }
 }

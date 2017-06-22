@@ -117,15 +117,49 @@ class Init
         } else {
             $query = $_SERVER['REQUEST_URI'];
         }
+        $query = substr(htmlspecialchars($query, ENT_QUOTES), 1);
+
         core\Request::checkParam($request_method);
-        if (array_key_exists($query, $this->_config['router'][$request_method])) {
-            $params = explode('@', $this->_config['router'][$request_method][$query]);
-            $controller = "\\app\\controller\\" . $params[0];
+
+        $index = strpos($query, '/');
+        $version = intval(substr($query, 0, $index));
+        $uri = substr($query, $index);
+
+        $routerVersion = array_keys($this->_config['router']);
+
+        //寻找到路由置为true
+        $flag = false;
+
+        //直接找到该版本
+        if (array_key_exists('v' . $version, $this->_config['router'])
+            &&
+            array_key_exists($uri, $this->_config['router']['v' . $version][$request_method])
+        ) {
+            $params = explode('@', $this->_config['router']['v' . $version][$request_method][$uri]);
+            $controller = "\\app\\controller\\v" . $version . "\\" . $params[0];
             $action = $params[1];
+            $flag = true;
             (new $controller)->$action();
-        } else {
+        }
+
+        if (!$flag) {
+            //未找到该版本 版本不停向下找
+            foreach ($routerVersion as $item) {
+                if (array_key_exists($uri, $this->_config['router'][$item][$request_method])) {
+                    $params = explode('@', $this->_config['router'][$item][$request_method][$uri]);
+                    $controller = "\\app\\controller\\" . $item . "\\" . $params[0];
+                    $action = $params[1];
+                    (new $controller)->$action();
+                    $flag = true;
+                    break;
+                }
+            }
+        }
+
+        if (!$flag) {
             throw new HttpException('Undefined router', 404);
         }
+
     }
 
     /**
@@ -135,7 +169,7 @@ class Init
     {
         $capsule = new Capsule;
         foreach ($this->_config['database'] as $key => $value) {
-            $capsule->addConnection($value , $key);
+            $capsule->addConnection($value, $key);
         }
 
         $capsule->setEventDispatcher(new Dispatcher(new Container));
@@ -147,7 +181,8 @@ class Init
     /**
      * 初始化缓存
      */
-    private function connCache(){
+    private function connCache()
+    {
         core\CacheFactory::cacheFactory('memcache', $this->_config['memcache']);
     }
 }

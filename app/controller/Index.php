@@ -10,6 +10,7 @@ namespace app\controller;
 use core\CacheFactory;
 use core\Controller;
 use app\service\ExampleService;
+use core\Request;
 
 
 class Index extends Controller
@@ -36,7 +37,7 @@ class Index extends Controller
     public function page()
     {
         $obj = ExampleService::getInstance();
-        $page = $obj->pageEx($_GET['page']);
+        $page = $obj->pageEx(Request::$_GET['page']);
         $page->setPath('/pageEx');
         $this->apiReturn('200', 'ok', $page);
     }

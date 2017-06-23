@@ -15,8 +15,5 @@ try {
 } catch (app\exception\HttpException $httpException) {
     echo $httpException->getCode() . '<br/>';
     echo $httpException->getMessage();
-} /*catch (\Exception $exception) {
-    echo $exception->getCode();
-    echo $exception->getMessage();
-}*/
+}
 

@@ -9,8 +9,6 @@
 namespace core;
 
 
-use app\exception\LfException;
-
 class Memcached extends Cache
 {
     /**
@@ -33,7 +31,7 @@ class Memcached extends Cache
     public function __construct(array $config)
     {
         if (!extension_loaded('memcached')) {
-            throw new LfException('Failed to load memcached extension');
+            throw new \Exception('Failed to load memcached extension');
         }
 
         //处理数据格式

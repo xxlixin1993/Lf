@@ -9,8 +9,6 @@
 namespace core;
 
 
-use app\exception\LfException;
-
 class Redis extends Cache
 {
     /**
@@ -32,7 +30,7 @@ class Redis extends Cache
     public function __construct($hostLists)
     {
         if (!extension_loaded('redis')) {
-            throw new LfException('Failed to load redis extension');
+            throw new \Exception('Failed to load redis extension');
         }
 
         if (count($hostLists) > 1) {

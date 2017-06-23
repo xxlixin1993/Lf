@@ -9,14 +9,22 @@
 namespace core;
 
 
-use bootstrap\Init;
-
 class MongoDb
 {
+    /**
+     * 链接数组
+     * @var array
+     */
     private $_collection = [];
 
+    /**
+     * @var \MongoDB\Driver\Manager
+     */
     private $_manager;
 
+    /**
+     * @var MongoDb
+     */
     private static $_instance;
 
     /**

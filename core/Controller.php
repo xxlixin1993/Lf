@@ -12,7 +12,8 @@ namespace core;
 class Controller
 {
     /**
-     * 构造函数
+     * Controller constructor.
+     * @author lixin
      */
     public function __construct()
     {

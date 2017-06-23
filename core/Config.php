@@ -11,13 +11,20 @@ namespace core;
  */
 class Config implements \ArrayAccess
 {
-    //将所有的配置存放到自己的私有变量
+    /**
+     * 将所有的配置存放到自己的私有变量
+     * @var array
+     */
     private $config = array();
-    //保存要获取的config文件的路径
+
+    /**
+     * 保存要获取的config文件的路径
+     * @var string
+     */
     protected $path;
 
     /**
-     * @var 
+     * @var Config
      */
     protected static $_instance;
 

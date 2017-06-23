@@ -21,7 +21,15 @@ class BaseModel extends Model
     {
         parent::__construct($attributes);
     }
-    
+
+    /**
+     * 获取mongo链接
+     * @param string $connection 选择mongo配置中的配置
+     * @param string $mongoDb database名
+     * @param string $collection 集合名
+     * @return mixed
+     * @author lixin
+     */
     public function getMongoCollection($connection, $mongoDb, $collection)
     {
         return MongoDb::getInstance($connection)->getCollection($mongoDb, $collection);

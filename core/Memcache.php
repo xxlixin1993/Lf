@@ -9,8 +9,6 @@
 namespace core;
 
 
-use app\exception\LfException;
-
 class Memcache extends Cache
 {
     /**
@@ -32,7 +30,7 @@ class Memcache extends Cache
     public function __construct($hostLists)
     {
         if (!extension_loaded('memcache')) {
-            throw new LfException('Failed to load memcache extension');
+            throw new \Exception('Failed to load memcache extension');
         }
 
         $this->_hostLists = $hostLists;

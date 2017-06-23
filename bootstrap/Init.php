@@ -106,7 +106,6 @@ class Init
         }
 
         self::initMysql();
-        self::connCache();
         if ($module == 'web') {
             self::dispatch();
         }
@@ -152,12 +151,5 @@ class Init
         $capsule->setAsGlobal();
         $capsule->bootEloquent();
     }
-
-    /**
-     * 初始化缓存
-     */
-    private function connCache()
-    {
-        core\CacheFactory::cacheFactory('memcache', $this->_config['memcache']);
-    }
+    
 }

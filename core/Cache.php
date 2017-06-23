@@ -1,7 +1,7 @@
 <?php
 /**
  * Cache.php
- * Cache 底层驱动
+ * Cache操作类
  * User: lixin
  * Date: 17-5-20
  */
@@ -9,36 +9,34 @@
 namespace core;
 
 
-abstract class Cache
+class Cache
 {
     /**
-     * 通过魔术函数，实现读取不可访问属性
-     * @param string $name 参数名
+     * 获取redis链接
      * @return mixed
+     * @author lixin
      */
-    public function __get($name)
+    public static function getRedisConn()
     {
-        return $this->get($name);
+        if (empty(CacheFactory::$_handle['redis'])) {
+            $config = Config::getInstance(BASEDIR);
+            CacheFactory::cacheFactory('redis', $config['redis']);
+        }
+        return CacheFactory::$_handle['redis'];
     }
 
     /**
-     * 通过魔术函数，给不可访问属性赋值
-     * @param string $name  参数名
-     * @param mixed  $value 值
-     * @return boolean
+     * 获取memcache链接
+     * @return mixed
+     * @author lixin
      */
-    public function __set($name, $value)
+    public static function getMemcacheConn()
     {
-        return $this->set($name, $value);
+        if (empty(CacheFactory::$_handle['memcache'])) {
+            $config = Config::getInstance(BASEDIR);
+            CacheFactory::cacheFactory('memcache', $config['memcache']);
+        }
+        return CacheFactory::$_handle['memcache'];
     }
 
-    /**
-     * 通过魔术函数，删除不可访问属性
-     * @param string $name 参数名
-     * @return boolean
-     */
-    public function __unset($name)
-    {
-        return $this->delete($name);
-    }
 }

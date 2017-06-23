@@ -7,9 +7,9 @@
  */
 namespace app\module\car\controller;
 
-use app\module\car\model\Test;
 use app\module\car\model\TestMongo;
 use app\module\car\service\ExampleService;
+use core\Cache;
 use core\Controller;
 use core\MongoDb;
 
@@ -18,13 +18,12 @@ class Index extends Controller
 {
     public function index()
     {
-//        $r = core\CacheFactory::$_handle['memcache']->set('asd','asd');
+//        $r = Cache::getMemcacheConn()->set('asd','asd');
 //        var_dump($r);exit;
-
 
 //        $obj = ExampleService::getInstance();
 //        print_r($obj->example());exit;
-        
+
 
 //        $t = new TestMongo();
 //        print_r($t->getOneEx());exit;

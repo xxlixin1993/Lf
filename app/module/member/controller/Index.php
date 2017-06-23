@@ -23,14 +23,8 @@ class Index extends Controller
 
 //        $obj = ExampleService::getInstance();
 //        print_r($obj->example());exit;
+        
 
-//        markdown 解析器
-//        $markdown = '# Hello World';
-//        $parser = new \cebe\markdown\GithubMarkdown();
-//        echo $parser->parse($markdown);exit;
-
-//        $this->assign('foo', 'bar');
-//        $this->display('Index/index');
         echo 'member';
     }
 

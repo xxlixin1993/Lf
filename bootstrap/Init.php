@@ -41,7 +41,7 @@ class Init
         //注册为自动加载函数
         spl_autoload_register('\\bootstrap\\Init::autoload');
         $this->_base_dir = $_base_dir;
-        $this->_config = new core\Config($_base_dir);
+        $this->_config = core\Config::getInstance($_base_dir);
     }
 
     /**
@@ -105,7 +105,7 @@ class Init
             ini_set('display_errors', false);
         }
 
-        self::connMysql();
+        self::initMysql();
         self::connCache();
         if ($module == 'web') {
             self::dispatch();
@@ -140,10 +140,10 @@ class Init
     /**
      * 初始化数据库
      */
-    private function connMysql()
+    private function initMysql()
     {
         $capsule = new Capsule;
-        foreach ($this->_config['database'] as $key => $value) {
+        foreach ($this->_config['mysql'] as $key => $value) {
             $capsule->addConnection($value, $key);
         }
 

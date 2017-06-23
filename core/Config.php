@@ -17,15 +17,28 @@ class Config implements \ArrayAccess
     protected $path;
 
     /**
+     * @var 
+     */
+    protected static $_instance;
+
+    /**
      * Config constructor.
      * @param $path
      */
-    public function __construct($path)
+    protected function __construct($path)
     {
         //组织配置文件路径
         $this->path = $path . '/config/';
     }
 
+    public static function getInstance($path)
+    {
+        if (empty(self::$_instance)) {
+            self::$_instance = new self($path);
+        }
+        return self::$_instance;
+    }
+    
     /**
      * 实现ArrayAccess的4个方法
      * @param mixed $key 配置文件名 例DatabaseConfig

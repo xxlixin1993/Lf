@@ -13,10 +13,10 @@ define('BASEDIR', __DIR__);
 try {
     bootstrap\Init::getInstance(__DIR__)->init();
 } catch (app\exception\HttpException $httpException) {
-    echo $httpException->getCode();
+    echo $httpException->getCode() . '<br/>';
     echo $httpException->getMessage();
-} catch (\Exception $exception) {
-    echo $httpException->getCode();
-    echo $httpException->getMessage();
-}
+} /*catch (\Exception $exception) {
+    echo $exception->getCode();
+    echo $exception->getMessage();
+}*/
 

@@ -12,6 +12,7 @@ use app\module\car\service\ExampleService;
 use core\Cache;
 use core\Controller;
 use core\MongoDb;
+use GuzzleHttp\Client;
 
 
 class Index extends Controller
@@ -37,7 +38,17 @@ class Index extends Controller
 //        $this->collection = new \MongoDB\Collection($manager, "report_0x18", "RD5512G500000301");
 //        $data = $this->collection->findOne(array('time' => 1497336593));
 //        print_r($data);exit;
-        
+
+        $client = new Client([
+            // Base URI is used with relative requests
+            'base_uri' => 'http://lf.com',
+            // You can set any number of default request options.
+            'timeout'  => 2.0,
+        ]);
+        $response = $client->request('GET', '/page');
+        $body = $response->getBody();
+
+        echo $body;exit;
         echo 'car';
     }
 

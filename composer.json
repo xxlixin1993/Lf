@@ -12,6 +12,7 @@
     "cebe/markdown":"~1.1.1",
     "illuminate/pagination":"~5.4.27",
     "illuminate/config":"~5.4.27",
-    "vlucas/phpdotenv":"~2.4.0"
+    "vlucas/phpdotenv":"~2.4.0",
+    "phpmailer/phpmailer": "~5.2"
   }
 }

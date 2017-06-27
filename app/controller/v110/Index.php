@@ -10,6 +10,7 @@ namespace app\controller\v110;
 use core\Controller;
 use app\service\ExampleService;
 use core\Request;
+use lib\Mail;
 
 
 class Index extends Controller
@@ -30,6 +31,8 @@ class Index extends Controller
 
 //        $this->assign('foo', 'bar');
 //        $this->display('Index/index');
+//        $mail = Mail::createQQMailHandle('403136170@qq.com','xxlixin1993@gmail.com','nickname','test','test');
+//        print_r(Mail::send($mail));
         echo 'v110';
     }
 

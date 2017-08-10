@@ -81,6 +81,15 @@ class Init
         $dotEnv = new Dotenv(BASEDIR);
         $dotEnv->load();
 
+        //定义view目录
+        define('VIEW_DIR', BASEDIR . '/app/view');
+        //定义js目录
+        define('JS_DIR', '/app/static/js');
+        //定义css目录
+        define('CSS_DIR', '/app/static/css');
+        //定义Img目录
+        define('IMG_DIR', '/app/static/img');
+        
         //检查系统环境是否是windows
         if (substr(PHP_OS, 0, 3) == "WIN")
             define("__IS_WIN__", 1);
@@ -124,48 +133,20 @@ class Init
         } else {
             $query = $_SERVER['REQUEST_URI'];
         }
-        $query = substr(htmlspecialchars($query, ENT_QUOTES), 1);
 
         core\Request::checkParam($request_method);
 
-        $index = strpos($query, '/');
-        $version = intval(substr($query, 0, $index));
-        $uri = substr($query, $index);
-
-        $routerVersion = array_keys($this->_config['router']);
-
-        //寻找到路由置为true
-        $flag = false;
-
-        //直接找到该版本
-        if (array_key_exists('v' . $version, $this->_config['router'])
-            &&
-            array_key_exists($uri, $this->_config['router']['v' . $version][$request_method])
-        ) {
-            $params = explode('@', $this->_config['router']['v' . $version][$request_method][$uri]);
-            $controller = "\\app\\controller\\v" . $version . "\\" . $params[0];
+        if (array_key_exists($query, $this->_config['router'][$request_method])) {
+            $params = explode('@', $this->_config['router'][$request_method][$query]);
+            $controller = "\\app\\controller\\" . $params[0];
             $action = $params[1];
-            $flag = true;
+            core\LInstance::setStringInstance('controller', $params[0]);
+            core\LInstance::setStringInstance('action', $action);
             (new $controller)->$action();
-        }
-
-        //未找到该版本 版本不停向下找
-        if (!$flag) {
-            foreach ($routerVersion as $item) {
-                if (array_key_exists($uri, $this->_config['router'][$item][$request_method])) {
-                    $params = explode('@', $this->_config['router'][$item][$request_method][$uri]);
-                    $controller = "\\app\\controller\\" . $item . "\\" . $params[0];
-                    $action = $params[1];
-                    (new $controller)->$action();
-                    $flag = true;
-                    break;
-                }
-            }
-        }
-
-        if (!$flag) {
+        } else {
             throw new HttpException('Undefined router', 404);
         }
+
 
     }
 

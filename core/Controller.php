@@ -19,17 +19,18 @@ class Controller
     protected $_data;
 
     /**
-     * 模板路径
+     * title
      * @var string
      */
-    protected $_template_dir;
+    protected $_title;
 
     /**
      * 构造函数
      */
     public function __construct()
     {
-        $this->_template_dir = Init::getInstance()->_base_dir . '/app/view/';
+        $this->_title = 'Lf';
+        $this->assign('title', $this->_title);
     }
 
     /**
@@ -48,12 +49,15 @@ class Controller
      */
     public function display($view_name = '')
     {
-        $path = $this->_template_dir . '/' . $view_name . '.php';
-        //把数组中的key当变量名,value当变量值
-        extract($this->_data);
+        $path = Init::getInstance()->_base_dir . '/app/view/' . $view_name . '.php';
+
+        if (!empty($this->_data)) {
+            //把数组中的key当变量名,value当变量值
+            extract($this->_data);
+        }
         include $path;
     }
-
+    
     /**
      * 输出Json
      * @param int $code 状态码

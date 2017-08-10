@@ -1,2 +1,3 @@
-<h1>Welcome</h1>
-<?=$foo?>
+<?php include VIEW_DIR.'/Comm/head.php'?>
+
+index

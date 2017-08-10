@@ -74,4 +74,19 @@ class Controller
         ];
         exit(json_encode($returnData));
     }
+
+    /**
+     * 检查是否登录
+     * @return bool
+     * @author lixin
+     */
+    public function checkLogin()
+    {
+        session_start();
+        if (isset($_COOKIE['PHPSESSID']) && isset($_SESSION[$_COOKIE['PHPSESSID']])) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }

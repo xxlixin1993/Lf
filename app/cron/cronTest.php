@@ -1,6 +1,6 @@
 <?php
 /**
- * WebSocket
+ * test
  * User: lixin
  * Date: 2017/3/31
  * Time: 下午5:09
@@ -11,4 +11,4 @@ require_once __DIR__ . '/../../vendor/autoload.php';
 //定义根目录
 define('BASEDIR', __DIR__."/../../");
 bootstrap\Init::getInstance(__DIR__.'/../../')->init('script');
-$ws = new core\WebSocket("127.0.0.1", "8080");
+// To Do Something

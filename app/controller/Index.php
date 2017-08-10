@@ -7,10 +7,22 @@
  * Date: 17-8-8
  */
 namespace app\controller;
+
 use core\Controller;
 
 class Index extends Controller
 {
+    public function __construct()
+    {
+        parent::__construct();
+        $this->_title = 'Index';
+        $this->assign('title', $this->_title);
+
+        if (!$this->checkLogin()) {
+            header("Location:  /login");
+        }
+    }
+
     /**
      * 首页
      * @author lixin

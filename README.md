@@ -26,3 +26,15 @@ server {
     }
 }
 ```
+
+## MYSQL
+```
+ CREATE TABLE `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键',
+  `username` varchar(20) NOT NULL DEFAULT '' COMMENT '用户名',
+  `password` varchar(40) NOT NULL DEFAULT '' COMMENT '用户密码 sha1(password+salt)',
+  `salt` varchar(10) NOT NULL DEFAULT '' COMMENT 'salt盐',
+  `add_time` int(10) DEFAULT '0' COMMENT '添加时间',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='用户表'
+```

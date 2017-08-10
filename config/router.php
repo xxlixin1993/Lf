@@ -12,7 +12,7 @@ return [
         '/login' => 'Login@index', //登陆展示
     ],
     'POST' => [
-        '/' => 'Index@index',
+        '/signIn' => 'Login@signIn',//登陆动作
     ],
     'PUT' => [
         '/' => 'Index@index',

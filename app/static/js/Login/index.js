@@ -36,7 +36,7 @@ jQuery(function ($) {
     });
 
     $('#login').click(function () {
-        var username =$("input[name='username']").val();
+        var username = $("input[name='username']").val();
         var password = $("input[name='password']").val();
         var error = $(".error");
         if (username == '') {
@@ -49,12 +49,12 @@ jQuery(function ($) {
             return false;
         }
 
-        console.log(username + '    ' + password);
+        // console.log(username + '    ' + password);
         $.ajax({
             type: 'POST',
             url: '/signIn',
-            data: {"username": $("input[name='username']").val(), "password":$("input[name='password']").val()},
-            success:  function (data) {
+            data: {"username": username, "password": password},
+            success: function (data) {
                 if (data.code == 200) {
                     location.href = '/';
                 } else {

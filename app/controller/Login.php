@@ -24,6 +24,10 @@ class Login extends Controller
         parent::__construct();
         $this->_title = 'Login';
         $this->assign('title', $this->_title);
+        
+        if ($this->checkLogin()) {
+            header("Location:  /");
+        }
     }
 
     /**

@@ -72,7 +72,7 @@ class UserService extends BaseService
                 session_start();
                 $sid = session_id();
                 $_SESSION[$sid] = $id;
-                setcookie('uid', $id, 86400);
+                setcookie('uid', $id, time() + 86400);
                 return [200, '成功'];
             } else {
                 return [9001, '注册写入失败'];
@@ -82,7 +82,7 @@ class UserService extends BaseService
                 session_start();
                 $sid = session_id();
                 $_SESSION[$sid] = $userInfo['id'];
-                setcookie('uid', $userInfo['id'], 86400);
+                setcookie('uid', $userInfo['id'], time() + 86400);
                 return [200, '成功'];
             } else {
                 return [1001, '用户名已经注册 且密码和你输入的不对应'];

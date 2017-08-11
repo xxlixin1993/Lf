@@ -1,4 +1,5 @@
 <!-- 导航栏 -->
+<link href="<?php echo CSS_DIR . '/Comm/nav.css'; ?>" rel="stylesheet">
 <nav class="navbar navbar-inverse" role="navigation">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -6,9 +7,9 @@
         </div>
         <div>
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#"><span class="nav-index">首页</span></a></li>
-                <li><a href="#"><span class="nav-index">发现</span></a></li>
-                <li><a href="/aboutMe"><span class="nav-index">About Me</span></a></li>
+                <li class=<?php if(isset($indexActive)) { echo "active";}?>><a href="/"><span class="nav-index">首页</span></a></li>
+                <li class=<?php if(isset($findActive)) { echo "active";}?>><a href="#"><span class="nav-index">发现</span></a></li>
+                <li class=<?php if(isset($aboutActive)) { echo "active";}?>><a href="/aboutMe"><span class="nav-index">关于</span></a></li>
                 <!--                <li class="dropdown">-->
                 <!--                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">-->
                 <!--                        Java-->

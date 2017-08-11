@@ -29,6 +29,7 @@ class Index extends Controller
      */
     public function index()
     {
+        $this->assign('indexActive', 1);
         $this->display('Index/index');
     }
 
@@ -38,6 +39,7 @@ class Index extends Controller
      */
     public function aboutMe()
     {
+        $this->assign('aboutActive', 1);
         $this->display('Index/aboutMe');
     }
 }

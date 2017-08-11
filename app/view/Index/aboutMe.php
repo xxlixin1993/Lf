@@ -1,4 +1,5 @@
 <?php include VIEW_DIR.'/Comm/head.php'?>
+<?php include VIEW_DIR.'/Comm/nav.php'?>
 <div class="container">
     <div class="jumbotron">
         <h1>欢迎登陆页面！</h1>

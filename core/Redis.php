@@ -90,7 +90,7 @@ class Redis extends Cache
      */
     public function __call($name, $arguments)
     {
-        return $this->_cacheHandle->$name($arguments);
+        return call_user_func_array(array($this->_cacheHandle, $name), $arguments);
     }
 
     /**
